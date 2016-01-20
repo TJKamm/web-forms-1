@@ -40,22 +40,22 @@
                 <h2>Create An Account</h2>
                   <ul>
                     <li>
-                      <label id="f-name-label">*First Name</label>
+                      <label for="f-name-label">*First Name</label>
                       <input type="text" name="first-name" id="f-name-label" placeholder="First Name" required />
                     </li>
                     
                     <li>
-                      <label id="l-name-label">*Last Name</label>
+                      <label for="l-name-label">*Last Name</label>
                       <input type="text" name="last-name" id="l-name-label" placeholder="Last Name" required />                   
                     </li>    
                     
                     <li>
-                      <label>*Please enter a valid email</label>
-                      <input type="email" name="email" required />
+                      <label for="email">*Please enter a valid email</label>
+                      <input type="email" name="email" id="email" placeholder="me@me.com" required />
                     </li>
                     
                     <li>
-                      <label>Month of Birth</label>
+                      <label for="month">Month of Birth</label>
                       <select name="month">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -73,7 +73,7 @@
                     </li>
                     
                     <li>
-                      <label>Date of Birth</label>
+                      <label for="day">Date of Birth</label>
                       <select name="day">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -110,7 +110,7 @@
                     </li>
                     
                     <li>
-                      <label>Year of Birth</label>
+                      <label for="year">Year of Birth</label>
                       <select name="year">
                         <option value="1940">1940</option>
                         <option value="1941">1941</option>
@@ -137,17 +137,17 @@
                     </li>
                     
                     <li>
-                      <label>Enter Zip Code</label>
-                      <input type="text" placeholder="90210"  pattern="^[0-9]{5}" />
+                      <label for="zipcode">Enter Zip Code</label>
+                      <input type="text" name="zipcode" placeholder="90210"  pattern="^[0-9]{5}" />
                     </li>
                     
                     <li>
-                      <label>Please enter the number of books you have read:</label><input type="number" value="50" placeholder="50" min="1" max="3000" />
+                      <label for="number-of-books">Please enter the number of books you have read:</label><input type="number" name="number-of-books" placeholder="50" min="1" max="3000" />
                     </li>
                     
                     <li>
-                      <label id="favorite-book-label">Favorite Book</label>
-                      <input type="text" name="favorite-book" id="favorite-book-label" placeholder="Favorite Book" />
+                      <label for="favorite-book">Favorite Book</label>
+                      <input type="text" name="favorite-book" id="favorite-book-label" placeholder="Harry Potter" />
                     </li>
                     
                   </ul>
